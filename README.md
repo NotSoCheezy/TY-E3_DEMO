@@ -7,7 +7,7 @@ TY.exe -e3
 
 Enjoy! See if you can get all 26 Rainbow Scales!
 
-- NotSoCheezyGaming (Cassi)
+- NotSoCheezyGaming (Cassandra)
 
 Changelog:
 
