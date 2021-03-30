@@ -1,4 +1,4 @@
-# TY-E3_DEMO
+# Ty the Tasmanian Tiger - E3 Demo
 Welcome to a special E3 Demo of TY the Tasmanian Tiger!
 
 To access this version of the game, simply copy the folder "PC_External" over to your TY install directory and run the following command from there.
