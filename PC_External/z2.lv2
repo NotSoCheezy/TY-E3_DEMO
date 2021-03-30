@@ -1,0 +1,2451 @@
+// MapEd Data File version 2
+// Copyright Krome Studios
+// Saved by [DAN]   Date: 24/06/2002   Time: 9:09:30 PM
+//
+
+
+name setup
+
+WorldMinMax = -3517.197,-652.138,-2577.036,7295.249,2280.150,7300.649
+ground = room_z2_01.mdl
+collisionHeapSize = 2064032
+envcube = env_z2.mdl
+envrotate = 0
+fog = 0.60, 0.40, 0.20
+waterFog = 0.40, 0.35, 0.75
+maxDepth = 600.00
+fogPlane = 7000.00
+farPlane = 25000.00
+waterFogPlane = 5.00
+waterFarPlane = 3500.00
+bDisplayMist = 0
+music = level1.wav
+waterMaterial = fx_088
+causticMaterial = fx_089
+light = -1.00, 1.50, 1.30
+lod_0 = 1250
+lod_1 = 2500
+lod_2 = 4500
+lod_3 = 8000
+lod_4 = 12000
+lod_5 = 17000
+lod_6 = 25000
+lod_7 = 40000
+overlay_water = room_e2_03.mdl, Room_E2_water
+overlay_1 = room_z2_04.mdl, 1, none
+overlay_2 = room_z2_05.mdl, 1, none
+overlay_3 = room_z2_02.mdl, 0, grasseffect
+ssao 15 0.003 0.007 0.997 0.8
+bloom 0.6 0.6 0.6 1 1
+hsv 1 1 1.3
+
+name TY
+
+pos = -82, 724, 449
+rot = -0.000, 7.451, 0.000
+effect = 0,none
+// User: DAN
+
+name STATICBRIDGEFLAT1
+
+pos = 1755, -344, -893
+rot = 0.009, -1.745, -0.000
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = -998, 134, 2270
+rot = 0.271, 0.000, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -963, -356, 633
+rot = 0.122, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEFLAT2
+
+pos = 1463, -364, -852
+rot = 0.096, -1.745, -0.000
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = -958, -287, 948
+rot = 0.271, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+pos = -962, 28, 1934
+rot = 0.358, 0.000, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEFLAT3
+
+pos = -956, -186, 1282
+rot = 0.340, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEFLAT4
+
+pos = -977, -83, 1588
+rot = 0.305, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEPOST1
+
+pos = -1129, -343, 1138
+rot = -0.090, -0.000, 0.069
+scale = 1.000, 1.260, 1.000
+// User: ???
+
+pos = -779, -338, 790
+rot = -0.157, 0.000, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEPOST2
+
+pos = 1662, -403, -717
+rot = 0.105, -1.745, -0.000
+scale = 0.968, 1.488, 0.968
+// User: ???
+
+pos = -1114, -307, 1490
+rot = 0.105, 0.000, 0.000
+scale = 1.210, 1.860, 1.210
+// User: ???
+
+pos = -1132, -338, 797
+rot = -0.183, 0.000, -0.000
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name STATICBRIDGEPOST3
+
+pos = 1310, -356, -937
+rot = -0.503, -1.965, -0.503
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = 1353, -352, -714
+rot = 0.460, -1.945, 0.399
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = 1822, -293, -1043
+rot = -0.115, -1.744, -0.348
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = 1889, -246, -797
+rot = 0.770, -1.794, 0.697
+scale = 0.800, 0.800, 0.800
+// User: ???
+
+pos = 1588, -398, -1012
+rot = 0.570, -1.779, 0.580
+scale = 1.160, 1.608, 1.160
+// User: ???
+
+pos = -766, -301, 1452
+rot = 0.000, 0.000, -0.113
+scale = 1.450, 2.010, 1.450
+// User: ???
+
+pos = -1180, -375, 462
+rot = 0.000, 0.000, -0.157
+scale = 1.000, 1.000, 1.000
+// User: ???
+
+name TRIGGERSPHERE
+
+pos = -49, 662, 4
+ID = 345,blank
+sphere = spherezone
+  pos = -13,750,50
+  radius = 248.00
+bActive = 1,true
+OnEnter = event
+  TargetID = 0,none
+  Message = none
+OnAction = event
+  TargetID = 344,MaurieExplainsControls
+  Message = Activate
+OnExit = event
+  TargetID = 0,none
+  Message = none
+bExclaim = 1,true
+bEnterOnceOnly = 0,false
+bExitOnceOnly = 0,false
+bActionOnceOnly = 0,false
+targetID = 0,none
+// User: DAN
+
+name DIALOG
+
+pos = -123, 660, -86
+ID = 344,MaurieExplainsControls
+camera = camera
+  cameraSource = -320.374, 871.566, 241.145
+  cameraTarget = -0.774, 746.710, 20.843
+bUseEventCamera = 0,false
+heroPos = 0.000, 0.000, 0.000
+heroLookAt = 0.000, 0.000, 0.000
+bUseHeroPos = 0,false
+dialogNr = 1
+dialogNr2 = -1
+dialog2Nr = -1
+dialog2Nr2 = -1
+OnCompletion = event
+  TargetID = 0,none
+  Message = none
+bUseNewDialog = 1,true
+OnActivation = event
+  TargetID = 0,none
+  Message = none
+bLevelIntro = 1,true
+bYesNoOption = 0,false
+OnYes = event
+  TargetID = 0,none
+  Message = none
+OnNo = event
+  TargetID = 0,none
+  Message = none
+// User: DAN
+
+name WATERVOLUME
+
+pos = -189, -645, 753
+rot = 0.000, 0.000, 0.000
+scale = 8000.000, 200.000, 7000.000
+// User: CML
+
+name SOUNDPROP
+
+pos = -1562, 188, 3634
+rot = 0.000, 0.000, 0.000
+sound = *EnvFrogsLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 403,blank
+dummySphere = spherezone
+  pos = -1562,188,3634
+  radius = 1500.00
+// User: AJM
+
+pos = 1866, 942, 3171
+rot = 0.000, 0.000, 0.000
+sound = *EnvCrowCall,t:\game\art\data\SoundEvents.txt,*
+minDelay = 5.000
+maxDelay = 12.000
+bActive = 1,true
+ID = 404,blank
+dummySphere = spherezone
+  pos = 1866,942,3171
+  radius = 1500.00
+// User: AJM
+
+pos = 2417, 951, 3302
+rot = 0.000, 0.000, 0.000
+sound = *EnvCrowCall,t:\game\art\data\SoundEvents.txt,*
+minDelay = 5.000
+maxDelay = 12.000
+bActive = 1,true
+ID = 405,blank
+dummySphere = spherezone
+  pos = 2417,951,3302
+  radius = 1500.00
+// User: AJM
+
+pos = -702, 213, 2828
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp3,t:\game\art\data\SoundEvents.txt,*
+minDelay = 10.000
+maxDelay = 20.000
+bActive = 1,true
+ID = 406,blank
+dummySphere = spherezone
+  pos = -702,213,2828
+  radius = 1500.00
+// User: AJM
+
+pos = 1772, -527, 1429
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp1,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.000
+maxDelay = 7.000
+bActive = 1,true
+ID = 407,blank
+dummySphere = spherezone
+  pos = 1772,-527,1429
+  radius = 1500.00
+// User: AJM
+
+pos = 164, 902, 702
+rot = 0.000, 0.000, 0.000
+sound = *EnvKookaburra,t:\game\art\data\SoundEvents.txt,*
+minDelay = 20.000
+maxDelay = 35.000
+bActive = 1,true
+ID = 408,blank
+dummySphere = spherezone
+  pos = 164,902,702
+  radius = 1500.00
+// User: AJM
+
+pos = 1734, -527, 1515
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp4,t:\game\art\data\SoundEvents.txt,*
+minDelay = 7.000
+maxDelay = 15.000
+bActive = 1,true
+ID = 409,blank
+dummySphere = spherezone
+  pos = 1734,-527,1515
+  radius = 1500.00
+// User: AJM
+
+pos = 1165, -138, -223
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp3,t:\game\art\data\SoundEvents.txt,*
+minDelay = 7.000
+maxDelay = 14.000
+bActive = 1,true
+ID = 410,blank
+dummySphere = spherezone
+  pos = 1165,-138,-223
+  radius = 1500.00
+// User: AJM
+
+pos = -674, 569, -1754
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp1,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.000
+maxDelay = 6.000
+bActive = 1,true
+ID = 411,blank
+dummySphere = spherezone
+  pos = -674,569,-1754
+  radius = 1500.00
+// User: AJM
+
+pos = -738, 212, 2965
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp1,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.000
+maxDelay = 6.000
+bActive = 1,true
+ID = 412,blank
+dummySphere = spherezone
+  pos = -738,212,2965
+  radius = 1500.00
+// User: AJM
+
+pos = -1429, 209, 2984
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdSongLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 10.000
+maxDelay = 15.000
+bActive = 1,true
+ID = 413,blank
+dummySphere = spherezone
+  pos = -1429,209,2984
+  radius = 1500.00
+// User: AJM
+
+pos = -345, 1277, -543
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp3,t:\game\art\data\SoundEvents.txt,*
+minDelay = 6.000
+maxDelay = 15.000
+bActive = 1,true
+ID = 414,blank
+dummySphere = spherezone
+  pos = -345,1277,-543
+  radius = 1500.00
+// User: AJM
+
+pos = -1190, -11, -450
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdSongLP,t:\game\art\data\SoundEvents.txt,*
+minDelay = 8.000
+maxDelay = 15.000
+bActive = 1,true
+ID = 415,blank
+dummySphere = spherezone
+  pos = -1190,-11,-450
+  radius = 1500.00
+// User: AJM
+
+pos = -1465, 341, 524
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp1,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.000
+maxDelay = 6.000
+bActive = 1,true
+ID = 416,blank
+dummySphere = spherezone
+  pos = -1465,341,524
+  radius = 1500.00
+// User: AJM
+
+pos = -582, 24, 874
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp4,t:\game\art\data\SoundEvents.txt,*
+minDelay = 8.000
+maxDelay = 20.000
+bActive = 1,true
+ID = 417,blank
+dummySphere = spherezone
+  pos = -582,24,874
+  radius = 1500.00
+// User: AJM
+
+pos = 432, 1103, -1202
+rot = 0.000, 0.000, 0.000
+sound = *EnvBirdChirp4,t:\game\art\data\SoundEvents.txt,*
+minDelay = 6.000
+maxDelay = 15.000
+bActive = 1,true
+ID = 418,blank
+dummySphere = spherezone
+  pos = 432,1103,-1202
+  radius = 1500.00
+// User: AJM
+
+pos = -1887, -545, -918
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.300
+maxDelay = 4.500
+bActive = 1,true
+ID = 419,blank
+dummySphere = spherezone
+  pos = -1887,-545,-918
+  radius = 1500.00
+// User: AJM
+
+pos = -2084, -545, -697
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.300
+maxDelay = 4.600
+bActive = 1,true
+ID = 420,blank
+dummySphere = spherezone
+  pos = -2084,-545,-697
+  radius = 1500.00
+// User: AJM
+
+pos = -1706, -545, -1555
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.500
+maxDelay = 5.000
+bActive = 1,true
+ID = 421,blank
+dummySphere = spherezone
+  pos = -1706,-545,-1555
+  radius = 1500.00
+// User: AJM
+
+pos = -2491, -535, -60
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.200
+maxDelay = 4.800
+bActive = 1,true
+ID = 422,blank
+dummySphere = spherezone
+  pos = -2491,-535,-60
+  radius = 1500.00
+// User: AJM
+
+pos = -2384, -536, -244
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.100
+maxDelay = 5.200
+bActive = 1,true
+ID = 423,blank
+dummySphere = spherezone
+  pos = -2384,-536,-244
+  radius = 1500.00
+// User: AJM
+
+pos = -1999, -526, -1565
+rot = 0.000, 0.000, 0.000
+sound = *EnvSeagull,t:\game\art\data\SoundEvents.txt,*
+minDelay = 2.000
+maxDelay = 5.000
+bActive = 1,true
+ID = 424,blank
+dummySphere = spherezone
+  pos = -1999,-526,-1565
+  radius = 1500.00
+// User: AJM
+
+pos = -972, 277, 1709
+rot = 0.000, 0.000, 0.000
+sound = *TyWoodGroan,t:\game\art\data\SoundEvents.txt,*
+minDelay = 0.000
+maxDelay = 0.000
+bActive = 1,true
+ID = 458,blank
+dummySphere = spherezone
+  pos = -972,277,1709
+  radius = 500.00
+// User: AJM
+
+name PORTAL
+
+pos = 2246, -466, 2647
+ID = 342,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 8,b1
+bExitPortal = 1,true
+bVisible = 1,true
+// User: DAN
+
+pos = -1120, 155, 3782
+ID = 343,blank
+standPos = 0.000, 0.000, 0.000
+standYaw = 0.000
+connectingLevel = 5,a2
+bExitPortal = 1,true
+bVisible = 1,true
+// User: DAN
+
+name OPAL
+
+pos = -1409, -315, -933
+// User: DAN
+
+pos = -180, 457, 1881
+// User: DAN
+
+pos = -435, 353, 2782
+// User: DAN
+
+pos = -105, 922, 1089
+// User: DAN
+
+pos = -158, 682, 1627
+// User: DAN
+
+pos = -134, 832, 1359
+// User: DAN
+
+pos = 3467, 640, 3903
+// User: DAN
+
+pos = -1156, -75, -1315
+// User: DAN
+
+pos = -1279, -442, 3350
+// User: DAN
+
+pos = -1648, 238, 3643
+// User: DAN
+
+pos = 1295, 596, 3603
+// User: DAN
+
+pos = 1049, -305, 2487
+// User: DAN
+
+pos = 2647, -495, 369
+// User: DAN
+
+pos = -948, -436, 883
+// User: DAN
+
+pos = -2865, -424, -279
+// User: DAN
+
+pos = -2698, -353, -1919
+// User: DAN
+
+name CRATE
+
+pos = 1165, 503, 4187
+rot = -0.001, 3.142, 0.001
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 313,blank
+// User: DAN
+
+pos = 2454, -473, 2839
+rot = -0.000, 3.140, 0.010
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 314,blank
+// User: DAN
+
+pos = 2578, 589, 4338
+rot = 0.000, 3.142, 0.003
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 315,blank
+// User: DAN
+
+pos = 3440, 590, 3411
+rot = 0.000, 3.142, -0.000
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 316,blank
+// User: DAN
+
+pos = 3089, 590, 4169
+rot = -0.000, 3.142, -0.002
+count = 2
+platformID = 0,none
+(A)Opal = 0
+ID = 317,blank
+// User: DAN
+
+pos = 2575, -488, 1516
+rot = -0.146, 3.142, -0.052
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 318,blank
+// User: DAN
+
+pos = 2653, -508, 1332
+rot = -0.260, 3.142, -0.120
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 319,blank
+// User: DAN
+
+pos = 1338, 502, 3970
+rot = -0.002, 3.142, 0.006
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 320,blank
+// User: DAN
+
+pos = 1416, 502, 4208
+rot = -0.005, 3.142, 0.010
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 321,blank
+// User: DAN
+
+pos = 2569, -469, 2646
+rot = 0.083, 3.142, 0.013
+count = 0
+platformID = 0,none
+(A)Opal = 0
+ID = 322,blank
+// User: DAN
+
+pos = 2723, -476, 2802
+rot = 0.006, 3.142, 0.000
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 323,blank
+// User: DAN
+
+pos = 2800, -469, 2965
+rot = -0.079, 3.142, -0.005
+count = 1
+platformID = 0,none
+(A)Opal = 0
+ID = 324,blank
+// User: DAN
+
+pos = 1699, 501, 4178
+rot = 0.000, 3.142, 0.001
+count = 2
+platformID = 0,none
+(A)Opal = 0
+ID = 325,blank
+// User: DAN
+
+name TOWER1
+
+pos = -1385, -1010, -933
+rot = 0.000, -0.921, 0.000
+scale = 1.000, 1.000, 1.000
+ID = 311,blank
+// User: DAN
+
+pos = -1165, -781, -1298
+rot = 0.000, -0.368, 0.000
+scale = 1.000, 1.000, 1.000
+ID = 312,blank
+// User: DAN
+
+name KINGFISHER
+
+pos = 1249, 49, -167
+count = 2
+rot = 0.000, 0.000, 0.000
+waypoints = waypoint
+  waypoint = 2020, -423, -281
+  waypoint = 1330, -423, 895
+scale = 332.700, 266.300, 456.000
+// User: DAN
+
+pos = -1590, 306, 488
+count = 2
+rot = 0.000, 0.552, 0.000
+waypoints = waypoint
+  waypoint = -1756, -545, 1248
+  waypoint = -2249, -545, 871
+  waypoint = -2114, -545, 212
+scale = 836.700, 410.300, 492.000
+// User: DAN
+
+pos = -850, 1292, -1716
+count = 2
+rot = 0.000, 0.368, 0.000
+waypoints = waypoint
+  waypoint = -1545, -423, -1349
+  waypoint = -1413, -423, -791
+scale = 505.797, 266.390, 421.797
+// User: DAN
+
+name KOOKABURRA
+
+pos = 432, 1006, 838
+count = 1
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+name LORIKEET
+
+pos = 1284, 192, -1247
+count = 5
+range = 450.000
+waypoints = waypoint
+  waypoint = 1029, 107, -175
+  waypoint = 1544, 86, 527
+  waypoint = 1835, 100, -354
+// User: DAN
+
+name IBIS
+
+pos = -1236, -565, 1956
+count = 1
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+pos = -1929, -565, 1736
+count = 1
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+pos = -2216, -565, 1505
+count = 1
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+pos = -1875, -553, 2450
+count = 1
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+name DRAGONFLY
+
+pos = 425, -332, 1365
+count = 2
+rot = 0.000, 0.737, 0.000
+scale = 700.199, 362.000, 703.199
+// User: DAN
+
+pos = 1784, -320, 4
+count = 2
+rot = 0.000, 0.368, 0.000
+scale = 685.980, 341.000, 860.340
+// User: DAN
+
+pos = 1314, -340, 818
+count = 3
+rot = 0.000, -0.368, 0.000
+scale = 735.000, 348.500, 747.000
+// User: DAN
+
+pos = 32, -338, 2138
+count = 3
+rot = 0.000, 2.486, 0.000
+scale = 681.210, 358.820, 669.000
+// User: DAN
+
+name FIREFLY
+
+pos = -1025, -470, 2725
+count = 5
+rot = 0.000, -0.552, 0.000
+scale = 357.300, 200.000, 300.000
+// User: DAN
+
+pos = -938, -467, 3148
+count = 4
+rot = 0.000, -0.737, 0.000
+scale = 387.000, 200.000, 300.000
+// User: DAN
+
+pos = -1615, -464, 3321
+count = 4
+rot = 0.000, 0.000, 0.000
+scale = 345.600, 203.000, 345.000
+// User: DAN
+
+pos = -1580, -473, 2754
+count = 4
+rot = 0.000, -0.921, 0.000
+scale = 387.900, 192.560, 300.000
+// User: DAN
+
+name WATERDRAGON
+
+pos = -1380, -498, 820
+// User: DAN
+
+name SOLDIERCRAB
+
+pos = -2094, -545, -1353
+count = 2
+range = 300.000
+spawnpool = -1
+// User: DAN
+
+pos = -1805, -543, -1621
+count = 2
+range = 300.000
+spawnpool = -1
+// User: DAN
+
+name SEAGULL
+
+pos = -2267, -50, -303
+count = 4
+scale = 800.000, 400.000, 1100.000
+rot = 0.000, 0.368, 0.000
+// User: DAN
+
+pos = -2034, 85, -1440
+count = 4
+scale = 700.000, 400.000, 1100.000
+rot = 0.000, 0.184, 0.000
+// User: DAN
+
+name BIRDFLOCK
+
+pos = 1412, 863, -728
+scale = 500.000, 400.000, 500.000
+// User: DAN
+
+name WALLABY
+
+pos = -842, -419, -497
+count = 2
+scale = 503.701, 400.000, 604.500
+rot = 0.000, -0.368, 0.000
+// User: DAN
+
+pos = -1291, -427, 8
+count = 2
+scale = 600.000, 400.000, 600.000
+rot = 0.000, 0.368, 0.000
+// User: DAN
+
+name FROG
+
+pos = 1965, -545, -179
+count = 5
+scale = 640.400, 300.000, 660.800
+rot = 0.000, 0.921, 0.000
+// User: DAN
+
+pos = 830, -545, 1239
+count = 1
+scale = 725.000, 300.000, 872.000
+rot = 0.000, 5.524, 0.000
+// User: DAN
+
+pos = 1605, -545, 636
+count = 2
+scale = 701.000, 300.000, 707.000
+rot = 0.000, 0.000, 0.000
+// User: DAN
+
+pos = 163, -500, 1820
+count = 2
+scale = 749.200, 200.000, 973.900
+rot = 0.000, 2.283, 0.000
+// User: DAN
+
+name WATERSKIMMER
+
+pos = -895, -545, 2074
+count = 5
+scale = 1.000, 1.000, 1.000
+rot = 0.000, 0.000, 0.000
+// User: DAN
+
+pos = -1850, -545, 2389
+count = 2
+scale = 1.000, 1.000, 1.000
+rot = 0.000, 0.000, 0.000
+// User: DAN
+
+name GECKO
+
+pos = -426, 364, 2916
+count = 2
+rot = 0.000, 0.000, 0.000
+scale = 300.000, 200.000, 300.000
+// User: DAN
+
+name MOTH
+
+pos = 632, -228, 2946
+count = 3
+scale = 450.000, 300.000, 450.000
+rot = 0.000, 0.184, 0.000
+// User: DAN
+
+pos = 1733, -250, 2575
+count = 4
+scale = 400.000, 300.000, 400.000
+rot = 0.000, 0.184, 0.000
+// User: DAN
+
+pos = 2543, -220, 2905
+count = 3
+scale = 450.000, 300.000, 450.000
+rot = 0.000, 0.184, 0.000
+// User: DAN
+
+name ANTHILL
+
+pos = 2213, 78, 507
+rot = 0.000, 0.000, 0.000
+// User: DAN
+
+pos = 2045, 501, 3245
+rot = 0.000, 0.000, 0.000
+// User: DAN
+
+name SPIDERWEB
+
+pos = 1228, -230, 2537
+rot = 2.817, -0.865, 2.946
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+pos = 2820, -319, 2591
+rot = 0.000, 0.552, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+name CATTLESKULL
+
+pos = 2803, 589, 4334
+rot = 0.010, 1.270, 0.006
+// User: DAN
+
+pos = 2747, 347, 2008
+rot = 0.003, 2.689, 0.000
+// User: DAN
+
+pos = 627, -512, 2840
+rot = 0.015, 2.086, -0.010
+// User: DAN
+
+pos = 1212, 383, 2312
+rot = 0.010, 1.270, 0.006
+// User: DAN
+
+name RUSTYCAR
+
+pos = 1237, 488, 3506
+rot = 0.018, 5.720, -0.012
+// User: DAN
+
+name SIGNPOST
+
+pos = 81, 662, 11
+rot = 0.000, -2.112, 0.000
+// User: DAN
+
+name TORCH1
+
+pos = 657, -548, 3058
+rot = 0.184, 2.946, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+pos = 1703, -565, 2689
+rot = 0.184, 2.394, -0.184
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+pos = 2567, -503, 3003
+rot = -0.184, 0.000, -0.184
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+name ROCK8
+
+pos = 78, 662, 75
+rot = -0.000, 3.142, 0.000
+scale = 0.446, 0.446, 0.446
+// User: DAN
+
+pos = -844, -478, -685
+rot = -0.318, 3.142, -0.302
+scale = 0.347, 0.347, 0.347
+// User: DAN
+
+name ROCK9
+
+pos = 982, 132, -1805
+rot = 0.094, 3.142, 1.013
+scale = 0.386, 0.386, 0.386
+// User: DAN
+
+pos = 2238, -464, 2945
+rot = 0.316, 2.158, -0.299
+scale = 0.383, 0.383, 0.383
+// User: DAN
+
+name ROCK10
+
+pos = 746, -7, -952
+rot = -0.965, 1.094, 0.892
+scale = 0.230, 0.230, 0.230
+// User: DAN
+
+pos = 517, -189, -115
+rot = -1.256, -1.129, -1.295
+scale = 0.284, 0.284, 0.284
+// User: DAN
+
+name ROCK13
+
+pos = -870, -365, -237
+rot = 0.492, 3.142, 0.328
+scale = 0.215, 0.215, 0.215
+// User: DAN
+
+pos = 777, -440, 238
+rot = 0.492, 3.142, 0.328
+scale = 0.215, 0.215, 0.215
+// User: DAN
+
+name RAINFORESTROCK1
+
+pos = -419, 208, 2954
+rot = 0.000, 4.530, 0.000
+scale = 0.610, 0.400, 0.460
+collide = 1,true
+// User: DAN
+
+pos = -1547, 154, 3823
+rot = 0.068, 10.360, 0.011
+scale = 0.338, 0.248, 0.310
+collide = 1,true
+// User: DAN
+
+name RAINFORESTROCK4
+
+pos = -1627, 191, 3519
+rot = -0.149, -0.602, -0.019
+scale = 0.347, 0.190, 0.220
+collide = 1,true
+// User: DAN
+
+name GHOSTGUM1
+
+pos = -2888, 1390, 735
+rot = -0.006, 2.137, -0.033
+scale = 0.587, 0.587, 0.587
+collide = 1,true
+// User: DAN
+
+pos = -384, 795, -581
+rot = -0.070, -2.511, -0.022
+scale = 0.707, 0.707, 0.707
+collide = 1,true
+// User: DAN
+
+pos = -1220, -490, -437
+rot = 0.000, 3.140, 0.000
+scale = 0.581, 0.581, 0.581
+collide = 1,true
+// User: DAN
+
+pos = 728, 442, -1509
+rot = 0.258, 2.359, 0.203
+scale = 0.615, 0.615, 0.615
+collide = 1,true
+// User: DAN
+
+pos = 477, -275, -21
+rot = 0.000, 5.024, 0.000
+scale = 0.675, 0.675, 0.675
+collide = 1,true
+// User: DAN
+
+name GHOSTGUM2
+
+pos = 104, 632, 755
+rot = 0.552, 2.177, 0.000
+scale = 0.701, 0.701, 0.701
+collide = 1,true
+// User: DAN
+
+pos = -2405, 1185, 1895
+rot = -0.167, -0.558, 0.157
+scale = 0.701, 0.701, 0.701
+collide = 1,true
+// User: DAN
+
+pos = 153, 548, -1167
+rot = 0.282, -4.728, 0.033
+scale = 0.626, 0.626, 0.626
+collide = 1,true
+// User: DAN
+
+pos = -1585, -482, 481
+rot = 0.000, 3.580, 0.000
+scale = 0.737, 0.737, 0.737
+collide = 1,true
+// User: DAN
+
+pos = 891, -23, -1147
+rot = 0.129, 1.436, 0.258
+scale = 0.675, 0.675, 0.675
+collide = 1,true
+// User: DAN
+
+pos = 1274, -435, -1125
+rot = 0.368, 7.074, 0.000
+scale = 0.595, 0.595, 0.595
+collide = 1,true
+// User: DAN
+
+name GHOSTGUM3
+
+pos = 1761, -572, 1538
+rot = -0.166, 2.320, 0.000
+scale = 0.750, 0.750, 0.750
+collide = 1,true
+// User: DAN
+
+pos = -751, 544, -1779
+rot = 0.265, 4.246, 0.088
+scale = 0.668, 0.668, 0.668
+collide = 1,true
+// User: DAN
+
+pos = -535, -526, 906
+rot = 0.257, 2.653, 0.000
+scale = 0.587, 0.587, 0.587
+collide = 1,true
+// User: DAN
+
+pos = 997, -417, -186
+rot = -0.552, 4.836, 0.000
+scale = 0.505, 0.505, 0.505
+collide = 1,true
+// User: DAN
+
+name SAPLING1
+
+pos = -2258, -212, 3273
+rot = 0.921, 0.000, 0.921
+scale = 0.500, 0.500, 0.500
+collide = 1,true
+// User: DAN
+
+pos = -2869, 503, -779
+rot = 0.000, 0.000, 1.473
+scale = 0.500, 0.500, 0.500
+collide = 1,true
+// User: DAN
+
+pos = -2837, 437, -1168
+rot = -0.037, 0.000, 1.197
+scale = 1.000, 1.000, 1.000
+collide = 1,true
+// User: DAN
+
+pos = -2392, 1022, 1899
+rot = 0.295, -2.598, 1.105
+scale = 0.776, 0.776, 0.776
+collide = 1,true
+// User: DAN
+
+pos = -2709, 1187, 1067
+rot = 0.139, 3.142, 0.880
+scale = 0.620, 0.620, 0.620
+collide = 1,true
+// User: DAN
+
+pos = -2879, 1164, 159
+rot = 0.063, 0.002, 1.479
+scale = 0.662, 0.662, 0.662
+collide = 1,true
+// User: DAN
+
+name SAPLING2
+
+pos = -451, 431, 3217
+rot = 1.473, 5.340, 0.552
+scale = 0.500, 0.500, 0.500
+collide = 1,true
+// User: DAN
+
+pos = -2554, 180, 2933
+rot = 0.368, 0.000, 0.368
+scale = 0.750, 0.750, 0.750
+collide = 1,true
+// User: DAN
+
+pos = -2865, 903, -884
+rot = -0.037, 0.000, 0.663
+scale = 1.000, 1.000, 1.000
+collide = 1,true
+// User: DAN
+
+pos = -2823, 1316, 621
+rot = -2.049, 3.142, -2.619
+scale = 0.536, 0.536, 0.536
+collide = 1,true
+// User: DAN
+
+name SAPLING3
+
+pos = -2153, 134, 3361
+rot = 0.737, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+collide = 1,true
+// User: DAN
+
+pos = -2496, 376, -2261
+rot = -0.737, 0.000, 0.000
+scale = 1.000, 1.000, 1.000
+collide = 1,true
+// User: DAN
+
+pos = -2880, 833, -422
+rot = 0.239, 0.092, 1.105
+scale = 1.000, 1.000, 1.000
+collide = 1,true
+// User: DAN
+
+pos = -2333, 1008, 1635
+rot = -1.422, 3.142, 1.399
+scale = 0.710, 0.710, 0.710
+collide = 1,true
+// User: DAN
+
+name PALMTREE1
+
+pos = -820, 183, 2463
+rot = 0.004, -2.208, 0.219
+scale = 1.410, 1.410, 1.410
+collide = 1,true
+// User: DAN
+
+pos = -1552, 197, 2708
+rot = -0.272, 4.036, -0.008
+scale = 1.370, 1.370, 1.370
+collide = 1,true
+// User: DAN
+
+pos = -772, 204, 3092
+rot = -0.561, 1.078, 0.507
+scale = 1.010, 1.010, 1.010
+collide = 1,true
+// User: DAN
+
+pos = -1185, 196, 2878
+rot = 0.192, -1.968, 0.356
+scale = 1.105, 1.105, 1.105
+collide = 1,true
+// User: DAN
+
+pos = -1704, 166, 3192
+rot = -0.560, 2.398, 0.197
+scale = 1.215, 1.215, 1.215
+collide = 1,true
+// User: DAN
+
+pos = -1187, 193, 3059
+rot = -0.035, -1.191, 0.039
+scale = 1.405, 1.405, 1.405
+collide = 1,true
+// User: DAN
+
+pos = -639, 139, 2753
+rot = -0.467, -0.989, -0.246
+scale = 1.435, 1.435, 1.435
+collide = 1,true
+// User: DAN
+
+name PALMTREECLUMP
+
+pos = -2467, -522, -270
+rot = -0.427, -1.189, -0.066
+scale = 0.880, 0.880, 0.880
+collide = 1,true
+// User: DAN
+
+pos = -2470, -530, -1120
+rot = 0.014, 0.328, 0.280
+scale = 0.870, 0.870, 0.870
+collide = 1,true
+// User: DAN
+
+pos = -2558, -453, -1629
+rot = -0.427, -1.189, -0.066
+scale = 0.880, 0.880, 0.880
+collide = 1,true
+// User: DAN
+
+pos = -2456, -422, -2129
+rot = 0.274, -3.671, 0.125
+scale = 0.855, 0.855, 0.855
+collide = 1,true
+// User: DAN
+
+pos = -2602, -544, 104
+rot = -0.825, 1.379, 0.869
+scale = 0.980, 0.980, 0.980
+collide = 1,true
+// User: DAN
+
+pos = -2735, -440, -1554
+rot = 0.307, -2.827, 0.398
+scale = 0.920, 0.920, 0.920
+collide = 1,true
+// User: DAN
+
+pos = -2107, -439, -2097
+rot = -0.131, -0.378, 0.090
+scale = 0.740, 0.740, 0.740
+collide = 1,true
+// User: DAN
+
+pos = -2823, -507, -115
+rot = 0.687, 1.760, -0.365
+scale = 0.900, 0.900, 0.900
+collide = 1,true
+// User: DAN
+
+name BEACHPALM
+
+pos = -2826, -472, -587
+rot = 0.456, -2.278, 0.622
+scale = 1.180, 1.180, 1.180
+collide = 1,true
+// User: DAN
+
+pos = -2618, -483, -1339
+rot = 0.475, -2.130, 0.512
+scale = 1.180, 1.180, 1.180
+collide = 1,true
+// User: DAN
+
+pos = -2809, -545, 227
+rot = -0.273, -0.375, -0.018
+scale = 0.815, 0.815, 0.815
+collide = 1,true
+// User: DAN
+
+pos = -1874, -491, -1998
+rot = 0.456, -2.278, 0.622
+scale = 1.180, 1.180, 1.180
+collide = 1,true
+// User: DAN
+
+pos = -2792, -409, -1747
+rot = 0.750, 1.938, -0.560
+scale = 0.760, 0.760, 0.760
+collide = 1,true
+// User: DAN
+
+pos = -2152, -458, -1853
+rot = -0.145, -0.626, -0.017
+scale = 0.910, 0.910, 0.910
+collide = 1,true
+// User: DAN
+
+name GRASSTREE1
+
+pos = 977, -473, 93
+rot = 0.000, 5.715, 0.000
+scale = 0.605, 0.605, 0.605
+// User: DAN
+
+name GRASSTREE2
+
+pos = 160, 590, -854
+rot = -0.114, -2.573, 0.010
+scale = 0.638, 0.638, 0.638
+// User: DAN
+
+pos = -583, -377, 172
+rot = -0.226, 2.583, -0.169
+scale = 0.788, 0.788, 0.788
+// User: DAN
+
+pos = 315, 524, -2084
+rot = 0.000, 1.801, 0.000
+scale = 0.915, 0.915, 0.915
+// User: DAN
+
+pos = 817, 21, -1062
+rot = 0.000, 1.444, 0.000
+scale = 0.725, 0.725, 0.725
+// User: DAN
+
+name GRASSTREE4
+
+pos = -225, -549, 778
+rot = -1.304, -1.086, -1.447
+scale = 0.599, 0.599, 0.599
+// User: DAN
+
+name GRASSCLUMP1
+
+pos = 1727, -530, 1596
+rot = 0.000, 0.000, 0.000
+scale = 0.550, 0.550, 0.550
+// User: DAN
+
+pos = 1720, -535, 1449
+rot = 0.000, 0.000, 0.000
+scale = 0.620, 0.620, 0.620
+// User: DAN
+
+pos = 1882, -511, 1562
+rot = 0.000, 0.000, 0.000
+scale = 0.680, 0.680, 0.680
+// User: DAN
+
+pos = 940, 158, -1667
+rot = 0.571, -2.140, 1.476
+scale = 0.510, 0.510, 0.510
+// User: DAN
+
+pos = 1050, -98, -1460
+rot = -2.008, -1.311, -1.066
+scale = 0.755, 0.755, 0.755
+// User: DAN
+
+pos = 1293, -457, -270
+rot = -0.326, -1.126, 0.128
+scale = 0.875, 0.875, 0.875
+// User: DAN
+
+pos = 1186, -225, -1614
+rot = -0.276, 0.399, 1.107
+scale = 0.685, 0.685, 0.685
+// User: DAN
+
+pos = -291, 662, 539
+rot = 0.000, 3.079, -0.000
+scale = 0.555, 0.555, 0.555
+// User: DAN
+
+pos = -82, 662, 671
+rot = -0.000, 2.514, 0.000
+scale = 0.995, 0.995, 0.995
+// User: DAN
+
+pos = -1188, -391, 30
+rot = 0.280, -0.938, -0.103
+scale = 0.700, 0.700, 0.700
+// User: DAN
+
+pos = -616, 565, -1690
+rot = 0.030, 2.639, 0.034
+scale = 0.930, 0.930, 0.930
+// User: DAN
+
+pos = -797, -378, 463
+rot = 1.496, -1.537, 1.500
+scale = 0.800, 0.800, 0.800
+// User: DAN
+
+pos = -571, -482, 770
+rot = 0.896, -2.218, 1.131
+scale = 0.795, 0.795, 0.795
+// User: DAN
+
+pos = -473, 567, -1428
+rot = -0.241, 2.094, 0.304
+scale = 0.535, 0.535, 0.535
+// User: DAN
+
+pos = 598, 275, -1439
+rot = -0.789, 0.314, 0.087
+scale = 0.960, 0.960, 0.960
+// User: DAN
+
+pos = 930, -270, -310
+rot = -0.983, 1.197, 1.412
+scale = 0.750, 0.750, 0.750
+// User: DAN
+
+name SPINIFEX1
+
+pos = -652, -405, -626
+rot = 0.382, -0.626, -0.011
+scale = 0.550, 0.550, 0.550
+// User: DAN
+
+pos = -756, -378, -464
+rot = -0.320, 2.895, -0.200
+scale = 0.765, 0.765, 0.765
+// User: DAN
+
+pos = -1360, -395, 368
+rot = 0.101, 1.116, -0.284
+scale = 0.665, 0.665, 0.665
+// User: DAN
+
+pos = -1577, -449, 291
+rot = 0.399, -0.815, -0.005
+scale = 0.880, 0.880, 0.880
+// User: DAN
+
+name LILLYS
+
+pos = 1354, -545, 1765
+rot = 0.000, 1.600, -0.000
+scale = 0.588, 0.588, 0.588
+// User: DAN
+
+pos = 1929, -545, 803
+rot = 0.000, -2.322, 0.000
+scale = 1.030, 1.030, 1.030
+// User: DAN
+
+pos = 1844, -545, 950
+rot = 0.000, -0.312, -0.000
+scale = 0.776, 0.776, 0.776
+// User: DAN
+
+pos = 2396, -545, -257
+rot = 0.000, 1.258, -0.000
+scale = 0.390, 0.390, 0.390
+// User: DAN
+
+pos = 2140, -545, -367
+rot = 0.000, -2.134, 0.000
+scale = 0.760, 0.760, 0.760
+// User: DAN
+
+pos = 1747, -545, 473
+rot = 0.000, -2.950, 0.000
+scale = 1.180, 1.180, 1.180
+// User: DAN
+
+pos = 721, -545, 924
+rot = 0.000, -2.385, 0.000
+scale = 0.460, 0.460, 0.460
+// User: DAN
+
+pos = 582, -545, 931
+rot = 0.000, 0.504, -0.000
+scale = 0.772, 0.772, 0.772
+// User: DAN
+
+pos = 774, -545, 718
+rot = 0.000, -2.824, 0.000
+scale = 0.670, 0.670, 0.670
+// User: DAN
+
+pos = 1072, -545, 1169
+rot = 0.000, 0.818, -0.000
+scale = 1.960, 1.960, 1.960
+// User: DAN
+
+pos = 1448, -545, 572
+rot = 0.000, 0.818, -0.000
+scale = 1.960, 1.960, 1.960
+// User: DAN
+
+pos = 2390, -545, 1018
+rot = 0.000, -0.061, -0.000
+scale = 0.616, 0.616, 0.616
+// User: DAN
+
+pos = -249, -545, 1745
+rot = 0.000, -0.061, -0.000
+scale = 0.616, 0.616, 0.616
+// User: DAN
+
+pos = 2625, -545, -591
+rot = 0.000, 2.765, 0.000
+scale = 0.680, 0.680, 0.680
+// User: DAN
+
+pos = 2351, -545, -783
+rot = 0.000, -0.940, -0.000
+scale = 0.585, 0.585, 0.585
+// User: DAN
+
+pos = 2501, -545, -850
+rot = 0.000, -2.134, -0.000
+scale = 0.645, 0.645, 0.645
+// User: DAN
+
+pos = 2497, -545, -670
+rot = 0.000, -2.573, -0.000
+scale = 0.605, 0.605, 0.605
+// User: DAN
+
+pos = 2787, -545, 1
+rot = 0.000, 3.016, 0.000
+scale = 0.480, 0.480, 0.480
+// User: DAN
+
+pos = 2657, -545, -99
+rot = 0.000, 1.258, -0.000
+scale = 0.730, 0.730, 0.730
+// User: DAN
+
+pos = 2393, -545, 597
+rot = 0.000, -1.832, 0.000
+scale = 0.625, 0.625, 0.625
+// User: DAN
+
+pos = 2661, -545, 486
+rot = 0.000, 1.572, 0.000
+scale = 0.740, 0.740, 0.740
+// User: DAN
+
+pos = 2605, -545, 63
+rot = 0.000, 1.258, -0.000
+scale = 0.390, 0.390, 0.390
+// User: DAN
+
+pos = 2605, -545, 293
+rot = 0.000, 1.697, 0.000
+scale = 0.400, 0.400, 0.400
+// User: DAN
+
+pos = 2521, -545, 200
+rot = 0.000, 1.258, -0.000
+scale = 0.640, 0.640, 0.640
+// User: DAN
+
+pos = 2486, -545, 415
+rot = 0.000, 0.692, -0.000
+scale = 0.660, 0.660, 0.660
+// User: DAN
+
+pos = 2716, -545, 207
+rot = 0.000, -0.250, -0.000
+scale = 0.735, 0.735, 0.735
+// User: DAN
+
+pos = 2514, -545, 1068
+rot = 0.000, 0.127, -0.000
+scale = 0.412, 0.412, 0.412
+// User: DAN
+
+pos = 2662, -545, 1052
+rot = 0.000, -1.192, -0.000
+scale = 0.448, 0.448, 0.448
+// User: DAN
+
+pos = 2041, -545, -125
+rot = 0.000, 2.388, 0.000
+scale = 1.560, 1.560, 1.560
+// User: DAN
+
+pos = 2103, -545, 99
+rot = 0.000, -2.322, 0.000
+scale = 1.030, 1.030, 1.030
+// User: DAN
+
+pos = 1875, -545, 66
+rot = 0.000, 1.195, -0.000
+scale = 1.600, 1.600, 1.600
+// User: DAN
+
+pos = 2360, -545, -35
+rot = 0.000, -1.380, -0.000
+scale = 1.870, 1.870, 1.870
+// User: DAN
+
+pos = 1950, -545, 316
+rot = 0.000, -2.950, 0.000
+scale = 1.180, 1.180, 1.180
+// User: DAN
+
+pos = 1887, -545, -462
+rot = 0.000, 1.069, -0.000
+scale = 1.660, 1.660, 1.660
+// User: DAN
+
+pos = 965, -545, 891
+rot = 0.000, 5.643, -0.000
+scale = 1.590, 1.590, 1.590
+// User: DAN
+
+pos = 1695, -545, 706
+rot = 0.000, -1.129, -0.000
+scale = 1.290, 1.290, 1.290
+// User: DAN
+
+pos = 1598, -545, 965
+rot = 0.000, 2.316, 0.000
+scale = 1.800, 1.800, 1.800
+// User: DAN
+
+pos = 1649, -545, 216
+rot = 0.000, 1.383, -0.000
+scale = 1.530, 1.530, 1.530
+// User: DAN
+
+pos = 2172, -545, 674
+rot = 0.000, -2.699, -0.000
+scale = 1.820, 1.820, 1.820
+// User: DAN
+
+pos = 1979, -545, 540
+rot = 0.000, 0.164, 0.000
+scale = 1.620, 1.620, 1.620
+// User: DAN
+
+pos = 1350, -545, 1130
+rot = 0.000, -2.660, -0.000
+scale = 1.300, 1.300, 1.300
+// User: DAN
+
+pos = 1148, -545, 445
+rot = 0.000, 0.504, -0.000
+scale = 0.772, 0.772, 0.772
+// User: DAN
+
+pos = -291, -545, 1401
+rot = 0.000, -1.950, 0.000
+scale = 0.720, 0.720, 0.720
+// User: DAN
+
+pos = 1669, -545, -52
+rot = 0.000, 2.514, -0.000
+scale = 0.724, 0.724, 0.724
+// User: DAN
+
+pos = 2113, -545, -721
+rot = 0.000, -2.134, 0.000
+scale = 0.760, 0.760, 0.760
+// User: DAN
+
+pos = 1643, -545, -283
+rot = 0.000, 1.132, -0.000
+scale = 0.460, 0.460, 0.460
+// User: DAN
+
+pos = 1806, -545, -251
+rot = 0.000, -1.254, -0.000
+scale = 0.472, 0.472, 0.472
+// User: DAN
+
+pos = 1897, -545, -696
+rot = 0.000, -1.506, -0.000
+scale = 0.564, 0.564, 0.564
+// User: DAN
+
+pos = 2214, -545, 879
+rot = 0.000, -2.448, -0.000
+scale = 0.720, 0.720, 0.720
+// User: DAN
+
+pos = 2016, -545, 1018
+rot = 0.000, -0.061, -0.000
+scale = 0.920, 0.920, 0.920
+// User: DAN
+
+pos = 1575, -545, 1192
+rot = 0.000, 1.760, -0.000
+scale = 0.740, 0.740, 0.740
+// User: DAN
+
+pos = 2216, -545, 1097
+rot = 0.000, -0.061, -0.000
+scale = 0.616, 0.616, 0.616
+// User: DAN
+
+pos = -186, -545, 1276
+rot = 0.000, 0.378, -0.000
+scale = 0.725, 0.725, 0.725
+// User: DAN
+
+pos = 157, -545, 1081
+rot = 0.000, 3.480, -0.000
+scale = 0.690, 0.690, 0.690
+// User: DAN
+
+pos = 1463, -545, 1391
+rot = 0.000, 0.127, -0.000
+scale = 0.588, 0.588, 0.588
+// User: DAN
+
+pos = 1829, -545, 1169
+rot = 0.000, -1.443, -0.000
+scale = 0.500, 0.500, 0.500
+// User: DAN
+
+pos = -452, -545, 1314
+rot = 0.000, -0.940, -0.000
+scale = 0.492, 0.492, 0.492
+// User: DAN
+
+pos = -193, -545, 1125
+rot = 0.000, -2.510, -0.000
+scale = 0.428, 0.428, 0.428
+// User: DAN
+
+pos = -374, -545, 1162
+rot = 0.000, 2.451, 0.000
+scale = 0.300, 0.300, 0.300
+// User: DAN
+
+pos = 74, -545, 2219
+rot = 0.000, 0.818, -0.000
+scale = 0.950, 0.950, 0.950
+// User: DAN
+
+pos = 48, -545, 1986
+rot = 0.000, -2.887, 0.000
+scale = 0.670, 0.670, 0.670
+// User: DAN
+
+pos = 540, -545, 1354
+rot = 0.000, -2.824, 0.000
+scale = 0.670, 0.670, 0.670
+// User: DAN
+
+pos = 67, -545, 2397
+rot = 0.000, -0.626, -0.000
+scale = 0.650, 0.650, 0.650
+// User: DAN
+
+pos = -185, -545, 1940
+rot = 0.000, 3.016, -0.000
+scale = 0.284, 0.284, 0.284
+// User: DAN
+
+pos = 653, -545, 1633
+rot = 0.000, 0.670, 0.000
+scale = 1.710, 1.710, 1.710
+// User: DAN
+
+pos = 418, -545, 1513
+rot = 0.000, 1.258, -0.000
+scale = 1.100, 1.100, 1.100
+// User: DAN
+
+pos = 1255, -545, 1448
+rot = 0.000, 2.702, 0.000
+scale = 1.500, 1.500, 1.500
+// User: DAN
+
+pos = 466, -545, 1842
+rot = 0.000, 0.944, -0.000
+scale = 1.240, 1.240, 1.240
+// User: DAN
+
+pos = -28, -545, 1774
+rot = 0.000, 1.697, 0.000
+scale = 1.270, 1.270, 1.270
+// User: DAN
+
+pos = 1262, -545, 830
+rot = 0.000, -2.824, -0.000
+scale = 1.570, 1.570, 1.570
+// User: DAN
+
+pos = 743, -545, 1165
+rot = 0.000, 1.320, -0.000
+scale = 1.800, 1.800, 1.800
+// User: DAN
+
+pos = 353, -545, 1230
+rot = 0.000, -3.013, 0.000
+scale = 1.450, 1.450, 1.450
+// User: DAN
+
+pos = 990, -545, 1575
+rot = 0.000, 4.054, 0.000
+scale = 1.720, 1.720, 1.720
+// User: DAN
+
+pos = 517, -545, 2080
+rot = 0.000, -0.501, -0.000
+scale = 0.640, 0.640, 0.640
+// User: DAN
+
+pos = 1132, -545, 1898
+rot = 0.000, 5.833, 0.000
+scale = 0.840, 0.840, 0.840
+// User: DAN
+
+pos = -134, -545, 2314
+rot = 0.000, 2.074, 0.000
+scale = 0.776, 0.776, 0.776
+// User: DAN
+
+pos = 1454, -545, 1976
+rot = 0.000, -2.887, -0.000
+scale = 0.608, 0.608, 0.608
+// User: DAN
+
+pos = 692, -545, 2120
+rot = 0.000, 3.016, 0.000
+scale = 0.792, 0.792, 0.792
+// User: DAN
+
+pos = 1180, -545, 1718
+rot = 0.000, -0.501, -0.000
+scale = 0.730, 0.730, 0.730
+// User: DAN
+
+pos = 1424, -545, 302
+rot = 0.000, 1.195, -0.000
+scale = 0.696, 0.696, 0.696
+// User: DAN
+
+pos = 717, -545, 2533
+rot = 0.000, 2.262, 0.000
+scale = 0.240, 0.240, 0.240
+// User: DAN
+
+pos = 820, -545, 1877
+rot = 0.000, 2.417, -0.000
+scale = 1.240, 1.240, 1.240
+// User: DAN
+
+pos = -648, -545, 1301
+rot = 0.000, -0.752, -0.000
+scale = 0.392, 0.392, 0.392
+// User: DAN
+
+pos = 803, -545, 1407
+rot = 0.000, -0.312, -0.000
+scale = 0.776, 0.776, 0.776
+// User: DAN
+
+pos = 594, -545, 753
+rot = 0.000, -2.699, 0.000
+scale = 0.432, 0.432, 0.432
+// User: DAN
+
+pos = -279, -545, 2333
+rot = 0.000, -1.568, -0.000
+scale = 0.224, 0.224, 0.224
+// User: DAN
+
+pos = -411, -545, 1646
+rot = 0.000, -0.375, -0.000
+scale = 0.464, 0.464, 0.464
+// User: DAN
+
+pos = 552, -545, 1170
+rot = 0.000, -2.385, 0.000
+scale = 0.460, 0.460, 0.460
+// User: DAN
+
+pos = 206, -545, 2489
+rot = 0.000, 1.195, -0.000
+scale = 0.350, 0.350, 0.350
+// User: DAN
+
+pos = 347, -545, 969
+rot = 0.000, 0.881, -0.000
+scale = 0.760, 0.760, 0.760
+// User: DAN
+
+pos = 1033, -545, 627
+rot = 0.000, 0.818, -0.000
+scale = 0.912, 0.912, 0.912
+// User: DAN
+
+pos = -79, -545, 1518
+rot = 0.000, -2.200, 0.000
+scale = 1.120, 1.120, 1.120
+// User: DAN
+
+pos = 583, -545, 2329
+rot = 0.000, -1.443, -0.000
+scale = 0.568, 0.568, 0.568
+// User: DAN
+
+name LILYPAD
+
+pos = -11, -545, 1297
+rot = 0.000, -2.385, 0.000
+scale = 0.536, 0.536, 0.536
+// User: DAN
+
+pos = -83, -545, 1077
+rot = 0.000, -0.392, -0.000
+scale = 0.720, 0.720, 0.720
+// User: DAN
+
+pos = 110, -545, 1617
+rot = 0.000, 1.006, -0.000
+scale = 0.464, 0.464, 0.464
+// User: DAN
+
+pos = 34, -545, 1152
+rot = 0.000, -2.448, -0.000
+scale = 0.360, 0.360, 0.360
+// User: DAN
+
+pos = 273, -545, 1901
+rot = 0.000, 0.253, -0.000
+scale = 1.220, 1.220, 1.220
+// User: DAN
+
+pos = 320, -545, 2106
+rot = 0.000, 2.011, 0.000
+scale = 1.090, 1.090, 1.090
+// User: DAN
+
+pos = -39, -545, 1209
+rot = 0.000, -1.631, 0.000
+scale = 0.740, 0.740, 0.740
+// User: DAN
+
+pos = 234, -545, 2026
+rot = 0.000, -1.631, -0.000
+scale = 0.452, 0.452, 0.452
+// User: DAN
+
+pos = 211, -545, 1736
+rot = 0.000, -2.134, -0.000
+scale = 1.460, 1.460, 1.460
+// User: DAN
+
+pos = 63, -545, 1392
+rot = 0.000, 2.831, -0.000
+scale = 1.070, 1.070, 1.070
+// User: DAN
+
+pos = 464, -545, 2414
+rot = 0.000, -0.501, -0.000
+scale = 0.510, 0.510, 0.510
+// User: DAN
+
+pos = 379, -545, 2381
+rot = 0.000, 2.514, 0.000
+scale = 0.740, 0.740, 0.740
+// User: DAN
+
+pos = 162, -545, 1499
+rot = 0.000, 0.177, -0.000
+scale = 1.260, 1.260, 1.260
+// User: DAN
+
+pos = 417, -545, 2223
+rot = 0.000, -2.636, -0.000
+scale = 0.740, 0.740, 0.740
+// User: DAN
+
+pos = 306, -545, 2276
+rot = 0.000, -1.506, -0.000
+scale = 0.850, 0.850, 0.850
+// User: DAN
+
+pos = 424, -545, 2481
+rot = 0.000, -0.312, -0.000
+scale = 0.580, 0.580, 0.580
+// User: DAN
+
+pos = 61, -545, 1243
+rot = 0.000, -1.196, -0.000
+scale = 0.850, 0.850, 0.850
+// User: DAN
+
+name FERN1
+
+pos = -1419, 202, 2990
+rot = -0.020, 0.881, 0.018
+scale = 1.225, 1.225, 1.225
+// User: DAN
+
+pos = -655, 204, 2843
+rot = -0.003, 0.504, 0.001
+scale = 1.370, 1.370, 1.370
+// User: DAN
+
+pos = -2402, 760, 1826
+rot = 3.058, -2.967, -1.055
+scale = 0.566, 0.566, 0.566
+// User: DAN
+
+pos = -2458, 753, 1996
+rot = 2.406, 2.872, -0.769
+scale = 0.641, 0.641, 0.641
+// User: DAN
+
+pos = -2455, 840, 1717
+rot = 2.030, -0.448, -1.838
+scale = 0.539, 0.539, 0.539
+// User: DAN
+
+pos = -2960, 884, 50
+rot = 1.594, 0.419, 0.636
+scale = 0.524, 0.524, 0.524
+// User: DAN
+
+pos = -2784, 855, 1083
+rot = 2.268, -2.824, -1.416
+scale = 0.566, 0.566, 0.566
+// User: DAN
+
+pos = -2935, 1092, 683
+rot = -1.610, -2.874, 1.275
+scale = 0.590, 0.590, 0.590
+// User: DAN
+
+pos = -2765, 871, 738
+rot = 0.619, -0.148, 1.616
+scale = 0.710, 0.710, 0.710
+// User: DAN
+
+pos = -829, 196, 2977
+rot = -0.012, 0.692, -0.092
+scale = 1.285, 1.285, 1.285
+// User: DAN
+
+pos = -1602, 200, 3115
+rot = 0.061, 2.702, -0.023
+scale = 1.425, 1.425, 1.425
+// User: DAN
+
+pos = -1220, 196, 3331
+rot = 0.389, -2.027, 0.312
+scale = 1.400, 1.400, 1.400
+// User: DAN
+
+pos = -741, 199, 3350
+rot = 0.014, 3.142, -0.008
+scale = 1.280, 1.280, 1.280
+// User: DAN
+
+pos = -554, 198, 2649
+rot = -0.076, -2.573, 0.110
+scale = 1.465, 1.465, 1.465
+// User: DAN
+
+pos = -1735, 204, 2868
+rot = -0.253, -1.380, -0.561
+scale = 1.185, 1.185, 1.185
+// User: DAN
+
+pos = -1442, 196, 3340
+rot = -0.584, 1.206, 0.558
+scale = 1.178, 1.178, 1.178
+// User: DAN
+
+pos = -1260, 196, 2534
+rot = 0.256, -1.066, 0.275
+scale = 1.493, 1.493, 1.493
+// User: DAN
+
+pos = -1225, 202, 2924
+rot = 0.019, 2.576, 0.175
+scale = 1.416, 1.416, 1.416
+// User: DAN
+
+pos = -1785, 202, 3227
+rot = 0.124, -0.564, -0.005
+scale = 1.262, 1.262, 1.262
+// User: DAN
+
+name FERN2
+
+pos = -3063, 285, 1089
+rot = 0.163, 3.142, 2.108
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+pos = -2550, 346, 1954
+rot = 3.138, 2.972, -1.296
+scale = 0.656, 0.656, 0.656
+// User: DAN
+
+pos = -2612, 398, 1828
+rot = -1.227, -3.332, 2.427
+scale = 0.689, 0.689, 0.689
+// User: DAN
+
+pos = -2836, 1146, 20
+rot = -5.898, -0.163, 2.321
+scale = 0.578, 0.578, 0.578
+// User: DAN
+
+pos = -2814, 633, 993
+rot = -2.935, -0.249, -0.906
+scale = 0.590, 0.590, 0.590
+// User: DAN
+
+pos = -2952, 636, 746
+rot = 1.439, 0.412, 1.488
+scale = 0.515, 0.515, 0.515
+// User: DAN
+
+pos = -878, 202, 3169
+rot = 0.033, -2.322, 0.013
+scale = 1.110, 1.110, 1.110
+// User: DAN
+
+pos = -1477, 208, 2615
+rot = -0.183, 3.142, -0.184
+scale = 1.493, 1.493, 1.493
+// User: DAN
+
+pos = -1766, 204, 3061
+rot = 0.024, -2.134, 0.022
+scale = 0.996, 0.996, 0.996
+// User: DAN
+
+pos = -1621, 199, 3305
+rot = -0.004, -0.626, -0.002
+scale = 0.947, 0.947, 0.947
+// User: DAN
+
+name FERN4
+
+pos = -1361, 191, 3175
+rot = 0.019, -2.322, 0.013
+scale = 1.495, 1.495, 1.495
+// User: DAN
+
+pos = -778, 198, 2811
+rot = 0.007, 2.451, -0.012
+scale = 1.630, 1.630, 1.630
+// User: DAN
+
+pos = -1285, 197, 2804
+rot = 0.048, 1.697, -0.045
+scale = 1.710, 1.710, 1.710
+// User: DAN
+
+pos = -1581, 197, 2820
+rot = -0.010, -0.689, -0.002
+scale = 1.460, 1.460, 1.460
+// User: DAN
+
+pos = -610, 197, 3064
+rot = -0.017, 0.630, 0.002
+scale = 1.230, 1.230, 1.230
+// User: DAN
+
+name TALLFERN1
+
+pos = -668, 198, 2541
+rot = 0.170, 1.069, -0.003
+scale = 1.310, 1.310, 1.310
+collide = 1,true
+// User: DAN
+
+pos = -1354, 203, 2665
+rot = -0.343, 2.765, 0.129
+scale = 1.140, 1.140, 1.140
+collide = 1,true
+// User: DAN
+
+pos = -856, 208, 2649
+rot = 0.257, -0.774, -0.057
+scale = 1.230, 1.230, 1.230
+collide = 1,true
+// User: DAN
+
+pos = -691, 208, 2697
+rot = 0.219, 3.551, 0.131
+scale = 1.380, 1.380, 1.380
+collide = 1,true
+// User: DAN
+
+pos = -641, 203, 3260
+rot = 0.135, -0.752, -0.235
+scale = 1.100, 1.100, 1.100
+collide = 1,true
+// User: DAN
+
+pos = -894, 202, 3060
+rot = 0.142, -0.250, -0.017
+scale = 1.195, 1.195, 1.195
+collide = 1,true
+// User: DAN
+
+pos = -1640, 205, 2929
+rot = 0.203, 2.074, -0.025
+scale = 1.355, 1.355, 1.355
+collide = 1,true
+// User: DAN
+
+pos = -1516, 193, 2907
+rot = 0.478, 0.395, -0.422
+scale = 1.280, 1.280, 1.280
+collide = 1,true
+// User: DAN
+
+pos = -1812, 204, 3097
+rot = 0.267, 1.132, -0.411
+scale = 1.080, 1.080, 1.080
+collide = 1,true
+// User: DAN
+
+pos = -1329, 206, 2892
+rot = -0.098, 2.200, 0.231
+scale = 1.080, 1.080, 1.080
+collide = 1,true
+// User: DAN
+
+pos = -1415, 203, 2732
+rot = 1.089, -1.192, 0.926
+scale = 1.445, 1.445, 1.445
+collide = 1,true
+// User: DAN
+
+pos = -861, 203, 2841
+rot = 0.307, -1.225, -0.036
+scale = 1.680, 1.680, 1.680
+collide = 1,true
+// User: DAN
+
+pos = -1325, 207, 3073
+rot = -0.116, 3.016, -0.002
+scale = 1.363, 1.363, 1.363
+collide = 1,true
+// User: DAN
+
+pos = -1322, 199, 3278
+rot = 0.303, 0.378, 0.003
+scale = 1.580, 1.580, 1.580
+collide = 1,true
+// User: DAN
+
+pos = -611, 198, 3217
+rot = 0.243, 0.346, -0.036
+scale = 1.629, 1.629, 1.629
+collide = 1,true
+// User: DAN
+
+pos = -572, 206, 2905
+rot = -0.095, -1.631, -0.001
+scale = 1.930, 1.930, 1.930
+collide = 1,true
+// User: DAN
+
+pos = -724, 207, 2634
+rot = -0.131, -3.076, 0.001
+scale = 1.552, 1.552, 1.552
+collide = 1,true
+// User: DAN
+
+pos = -861, 200, 3273
+rot = -0.248, 3.329, -0.103
+scale = 1.783, 1.783, 1.783
+collide = 1,true
+// User: DAN
+
+pos = -702, 209, 2945
+rot = 0.121, -1.649, -0.058
+scale = 1.489, 1.489, 1.489
+collide = 1,true
+// User: DAN
+
+pos = -667, 206, 3063
+rot = -0.130, -0.752, -0.021
+scale = 1.804, 1.804, 1.804
+collide = 1,true
+// User: DAN
+
+pos = -1650, 202, 2998
+rot = -0.165, -0.124, 0.135
+scale = 1.594, 1.594, 1.594
+collide = 1,true
+// User: DAN
+
+pos = -1478, 198, 3232
+rot = 0.115, 2.514, -0.002
+scale = 1.888, 1.888, 1.888
+collide = 1,true
+// User: DAN
+
+pos = -1260, 206, 2628
+rot = -0.234, -2.424, 0.057
+scale = 1.692, 1.692, 1.692
+collide = 1,true
+// User: DAN
+
+pos = -1637, 206, 2760
+rot = -0.241, 2.168, 0.001
+scale = 1.706, 1.706, 1.706
+collide = 1,true
+// User: DAN
+
+pos = -1375, 204, 2837
+rot = -0.214, 1.006, 0.029
+scale = 1.475, 1.445, 1.475
+collide = 1,true
+// User: DAN
+
+pos = -1810, 205, 3039
+rot = -0.129, 2.074, -0.014
+scale = 1.643, 1.643, 1.643
+collide = 1,true
+// User: DAN
+
+name OYSTERFUNGUS
+
+pos = -866, 228, 4094
+rot = 0.644, -0.166, 0.000
+scale = 0.500, 0.500, 0.500
+// User: DAN
+
+pos = -654, 320, 3849
+rot = 0.921, -0.958, 0.000
+scale = 1.000, 1.000, 1.000
+// User: DAN
+
+name CAVEMUSHIE
+
+pos = -639, 193, 3598
+rot = -0.202, 0.295, -0.056
+scale = 0.500, 0.500, 0.500
+// User: DAN
+
+name MAURIE
+
+pos = 57, 661, -82
+rot = 0.000, 3.462, 0.000
+bActive = 0,false
+// User: DAN
